@@ -11,14 +11,17 @@ class ApiData: ObservableObject {
     
     @Published var getData:[Menu] = [Menu(id: 0,  date: "", breakfast: "", lunch: "", dinner: "")]
     
+    
+    
+    //use the function to get the data from the Url link of the menu
     func updateData(){
-        let url = URL(string: "https://api.sheety.co/7deed22e80a5e8242df797431ad2d48f/menu/list")!
+        let url = URL(string: "")!
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data else {
                 return
             }
-            
+            //decode the code
             if let placeholder = try? JSONDecoder().decode(MealMenu.self, from: data){
                 DispatchQueue.main.async {
                     self.getData = placeholder.list
@@ -28,7 +31,7 @@ class ApiData: ObservableObject {
         }.resume()
     }
     init() {
-        self.updateData()
+        self.updateData()//updated the data of the menu
     }
     
 }
