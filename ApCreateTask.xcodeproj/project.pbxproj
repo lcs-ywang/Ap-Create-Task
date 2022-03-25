@@ -8,15 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */; };
-		3C5A238E27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */; };
 		3C5A238F27EE17C800DD7B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237E27EE17C300DD7B73 /* ContentView.swift */; };
-		3C5A239027EE17C800DD7B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237E27EE17C300DD7B73 /* ContentView.swift */; };
 		3C5A239127EE17C800DD7B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A237F27EE17C800DD7B73 /* Assets.xcassets */; };
-		3C5A239227EE17C800DD7B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A237F27EE17C800DD7B73 /* Assets.xcassets */; };
 		3C5A239E27EE197600DD7B73 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A239D27EE197600DD7B73 /* Menu.swift */; };
 		3C5A23A027EE19B400DD7B73 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A239F27EE19B400DD7B73 /* Menus.swift */; };
 		3C5A23A227EE19F400DD7B73 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A23A127EE19F400DD7B73 /* Store.swift */; };
-		3C5A23A427EE1B0B00DD7B73 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A23A327EE1B0B00DD7B73 /* SwiftUIView.swift */; };
+		3C5A23A627EE1BDB00DD7B73 /* Breakfast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A23A527EE1BDB00DD7B73 /* Breakfast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,23 +21,16 @@
 		3C5A237E27EE17C300DD7B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C5A237F27EE17C800DD7B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5A238427EE17C800DD7B73 /* ApCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C5A238A27EE17C800DD7B73 /* ApCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5A238C27EE17C800DD7B73 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		3C5A239D27EE197600DD7B73 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3C5A239F27EE19B400DD7B73 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
 		3C5A23A127EE19F400DD7B73 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		3C5A23A327EE1B0B00DD7B73 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3C5A23A527EE1BDB00DD7B73 /* Breakfast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breakfast.swift; sourceTree = "<group>"; };
+		3C70242427EE20100085EBA9 /* ApCreateTask--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ApCreateTask--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3C5A238127EE17C800DD7B73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C5A238727EE17C800DD7B73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,6 +43,7 @@
 		3C5A237727EE17C200DD7B73 = {
 			isa = PBXGroup;
 			children = (
+				3C70242427EE20100085EBA9 /* ApCreateTask--iOS--Info.plist */,
 				3C5A237C27EE17C300DD7B73 /* Shared */,
 				3C5A238B27EE17C800DD7B73 /* macOS */,
 				3C5A238527EE17C800DD7B73 /* Products */,
@@ -75,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				3C5A238427EE17C800DD7B73 /* ApCreateTask.app */,
-				3C5A238A27EE17C800DD7B73 /* ApCreateTask.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +81,7 @@
 		3C5A239B27EE195C00DD7B73 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3C5A23A327EE1B0B00DD7B73 /* SwiftUIView.swift */,
+				3C5A23A527EE1BDB00DD7B73 /* Breakfast.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,23 +116,6 @@
 			productReference = 3C5A238427EE17C800DD7B73 /* ApCreateTask.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3C5A238927EE17C800DD7B73 /* ApCreateTask (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C5A239827EE17C800DD7B73 /* Build configuration list for PBXNativeTarget "ApCreateTask (macOS)" */;
-			buildPhases = (
-				3C5A238627EE17C800DD7B73 /* Sources */,
-				3C5A238727EE17C800DD7B73 /* Frameworks */,
-				3C5A238827EE17C800DD7B73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ApCreateTask (macOS)";
-			productName = "Ap Create Task (macOS)";
-			productReference = 3C5A238A27EE17C800DD7B73 /* ApCreateTask.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,9 +127,6 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					3C5A238327EE17C800DD7B73 = {
-						CreatedOnToolsVersion = 13.1;
-					};
-					3C5A238927EE17C800DD7B73 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -175,7 +145,6 @@
 			projectRoot = "";
 			targets = (
 				3C5A238327EE17C800DD7B73 /* ApCreateTask (iOS) */,
-				3C5A238927EE17C800DD7B73 /* ApCreateTask (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -189,14 +158,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C5A238827EE17C800DD7B73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C5A239227EE17C800DD7B73 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,19 +167,10 @@
 			files = (
 				3C5A23A227EE19F400DD7B73 /* Store.swift in Sources */,
 				3C5A239E27EE197600DD7B73 /* Menu.swift in Sources */,
-				3C5A23A427EE1B0B00DD7B73 /* SwiftUIView.swift in Sources */,
 				3C5A238F27EE17C800DD7B73 /* ContentView.swift in Sources */,
 				3C5A23A027EE19B400DD7B73 /* Menus.swift in Sources */,
 				3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C5A238627EE17C800DD7B73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C5A239027EE17C800DD7B73 /* ContentView.swift in Sources */,
-				3C5A238E27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */,
+				3C5A23A627EE1BDB00DD7B73 /* Breakfast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +298,7 @@
 				DEVELOPMENT_TEAM = 2PUY3827Z7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ApCreateTask--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,6 +329,7 @@
 				DEVELOPMENT_TEAM = 2PUY3827Z7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ApCreateTask--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -397,62 +351,6 @@
 			};
 			name = Release;
 		};
-		3C5A239927EE17C800DD7B73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2PUY3827Z7;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.yiningwang.Ap-Create-Task";
-				PRODUCT_NAME = ApCreateTask;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		3C5A239A27EE17C800DD7B73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2PUY3827Z7;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.yiningwang.Ap-Create-Task";
-				PRODUCT_NAME = ApCreateTask;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -470,15 +368,6 @@
 			buildConfigurations = (
 				3C5A239627EE17C800DD7B73 /* Debug */,
 				3C5A239727EE17C800DD7B73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C5A239827EE17C800DD7B73 /* Build configuration list for PBXNativeTarget "ApCreateTask (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C5A239927EE17C800DD7B73 /* Debug */,
-				3C5A239A27EE17C800DD7B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
