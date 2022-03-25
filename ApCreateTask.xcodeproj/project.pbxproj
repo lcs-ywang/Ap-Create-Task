@@ -13,6 +13,8 @@
 		3C5A239027EE17C800DD7B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237E27EE17C300DD7B73 /* ContentView.swift */; };
 		3C5A239127EE17C800DD7B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A237F27EE17C800DD7B73 /* Assets.xcassets */; };
 		3C5A239227EE17C800DD7B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A237F27EE17C800DD7B73 /* Assets.xcassets */; };
+		3C5A239E27EE197600DD7B73 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A239D27EE197600DD7B73 /* Menu.swift */; };
+		3C5A23A027EE19B400DD7B73 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A239F27EE19B400DD7B73 /* Menus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3C5A238427EE17C800DD7B73 /* ApCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5A238A27EE17C800DD7B73 /* ApCreateTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApCreateTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5A238C27EE17C800DD7B73 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3C5A239D27EE197600DD7B73 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3C5A239F27EE19B400DD7B73 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */,
-				3C5A237E27EE17C300DD7B73 /* ContentView.swift */,
+				3C5A239C27EE196900DD7B73 /* Model */,
 				3C5A237F27EE17C800DD7B73 /* Assets.xcassets */,
+				3C5A239B27EE195C00DD7B73 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +81,23 @@
 				3C5A238C27EE17C800DD7B73 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		3C5A239B27EE195C00DD7B73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C5A237E27EE17C300DD7B73 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C5A239C27EE196900DD7B73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C5A239D27EE197600DD7B73 /* Menu.swift */,
+				3C5A239F27EE19B400DD7B73 /* Menus.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5A239E27EE197600DD7B73 /* Menu.swift in Sources */,
 				3C5A238F27EE17C800DD7B73 /* ContentView.swift in Sources */,
+				3C5A23A027EE19B400DD7B73 /* Menus.swift in Sources */,
 				3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
