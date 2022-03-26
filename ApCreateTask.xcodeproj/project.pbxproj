@@ -15,6 +15,7 @@
 		3C5A23A227EE19F400DD7B73 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A23A127EE19F400DD7B73 /* Store.swift */; };
 		3C5A23A627EE1BDB00DD7B73 /* Breakfast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A23A527EE1BDB00DD7B73 /* Breakfast.swift */; };
 		3C70242727EF547A0085EBA9 /* Lunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C70242627EF547A0085EBA9 /* Lunch.swift */; };
+		3C70242927EF57B30085EBA9 /* Dinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C70242827EF57B30085EBA9 /* Dinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		3C5A23A527EE1BDB00DD7B73 /* Breakfast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breakfast.swift; sourceTree = "<group>"; };
 		3C70242427EE20100085EBA9 /* ApCreateTask--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ApCreateTask--iOS--Info.plist"; sourceTree = "<group>"; };
 		3C70242627EF547A0085EBA9 /* Lunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunch.swift; sourceTree = "<group>"; };
+		3C70242827EF57B30085EBA9 /* Dinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				3C5A23A527EE1BDB00DD7B73 /* Breakfast.swift */,
 				3C70242627EF547A0085EBA9 /* Lunch.swift */,
+				3C70242827EF57B30085EBA9 /* Dinner.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				3C5A23A027EE19B400DD7B73 /* Menus.swift in Sources */,
 				3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */,
 				3C5A23A627EE1BDB00DD7B73 /* Breakfast.swift in Sources */,
+				3C70242927EF57B30085EBA9 /* Dinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
