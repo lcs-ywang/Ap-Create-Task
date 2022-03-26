@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct Breakfast: View {
+    
+    
+    
     @ObservedObject var details = ApiData()
     
     private var todayDate : String{
@@ -35,7 +38,7 @@ struct Breakfast: View {
         }
     }
 }
-//Add the code of getting the data 
+//Add the code of getting the data
 struct Breakfast_Previews: PreviewProvider {
     static var previews: some View {
         Breakfast()
