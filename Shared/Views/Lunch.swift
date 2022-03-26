@@ -26,7 +26,10 @@ struct Lunch: View {
             Form{
                 ForEach(0..<details.getData.count){ num in
                     if details.getData[num].date == todayDate{
-                        Section(header: Text(" Lunch ")){
+                        Section(header: Text(" Lunch ")
+                                    .font(.headline)
+                                    .foregroundColor(Color.gray)
+                                    .multilineTextAlignment(.center)){
                             Text("Menu: \(details.getData[num].lunch)")
                             
                         }
@@ -37,7 +40,7 @@ struct Lunch: View {
                 .padding(.all)
             }
         }
-        
+        Text("Enjoy your Meal!!!")
         
     }
 }

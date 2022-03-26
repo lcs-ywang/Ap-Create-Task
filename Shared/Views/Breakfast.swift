@@ -29,13 +29,18 @@ struct Breakfast: View {
                     if details.getData[num].date == todayDate{
                         Section(header: Text(" Breakfast")){
                             Text("Menu: \(details.getData[num].breakfast)")
+                                .foregroundColor(Color.black)
+                                .multilineTextAlignment(.leading)
+                                .padding([.top, .leading, .bottom])
                             
                         }
                     }
+        
                     
                 }
             }
         }
+       
     }
 }
 //Add the code of getting the data

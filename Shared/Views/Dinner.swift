@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Dinner: View {
-    @ObservedObject var details = ApiData2()
+    @ObservedObject var details = ApiData()
     
     private var todayDate : String{
         let today = Date()
@@ -35,6 +35,7 @@ struct Dinner: View {
                 }
             }
         }
+        Text("Have a good night!!!")
     }
 }
 
