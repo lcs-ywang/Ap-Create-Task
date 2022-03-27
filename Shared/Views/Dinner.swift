@@ -28,6 +28,9 @@ struct Dinner: View {
                     if details.getData[num].date == todayDate{
                         Section(header: Text(" Dinner ")){
                             Text("Menu: \(details.getData[num].dinner)")
+                                .foregroundColor(Color.black)
+                                .multilineTextAlignment(.leading)
+                                .padding(.all)
                             
                         }
                     }
@@ -35,7 +38,8 @@ struct Dinner: View {
                 }
             }
         }
-        Text("Have a good night!!!")
+        Text("Have a good Night!!!")
+            .padding(.all)
     }
 }
 

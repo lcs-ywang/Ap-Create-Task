@@ -15,14 +15,14 @@ struct ContentView: View {
                     NavigationLink(destination: Breakfast()){
                         HStack{
                             
-                            Text("🥞")
+                            Text("🥞🍳☕️🥨")
                                 .font(.largeTitle)
                             
                             VStack(alignment: .leading){
                                 Text("Breakfast")
                                     .multilineTextAlignment(.leading)
                                 
-                                Text("The most significant meal.")
+                                Text("I promise you it feels good after eating breakfast!")
                                     .font(.caption)
                                     .multilineTextAlignment(.leading)
                                 
@@ -34,14 +34,14 @@ struct ContentView: View {
                                     Lunch()){
                         HStack{
                             
-                            Text("🍱")
+                            Text("🍱🍜🥘🥟")
                                 .font(.largeTitle)
                             
                             VStack(alignment: .leading){
                                 Text("Lunch")
                                     .multilineTextAlignment(.leading)
                                 
-                                Text("Lunch is important for the classes in the afternoon.")
+                                Text("Hah Hah, yummy yummy!!!!")
                                     .font(.caption)
                                     .multilineTextAlignment(.leading)
                                 
@@ -52,14 +52,14 @@ struct ContentView: View {
                                     Dinner()){
                         HStack{
                             
-                            Text("🍛")
+                            Text("🍛🍝🍲🍧")
                                 .font(.largeTitle)
                             
                             VStack(alignment: .leading){
                                 Text("Dinner")
                                     .multilineTextAlignment(.leading)
                                 
-                                Text("Dinner is delicious today.")
+                                Text("Hope there is some ice-cream for dinner!")
                                     .font(.caption)
                                     .multilineTextAlignment(.leading)
                                 
@@ -70,7 +70,7 @@ struct ContentView: View {
             }
             .navigationBarTitle("Menu")
         }
-        .padding(.leading)
+        .padding(.all)
     }
 }
 

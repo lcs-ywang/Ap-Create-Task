@@ -31,7 +31,7 @@ struct Breakfast: View {
                             Text("Menu: \(details.getData[num].breakfast)")
                                 .foregroundColor(Color.black)
                                 .multilineTextAlignment(.leading)
-                                .padding([.top, .leading, .bottom])
+                                .padding(.all)
                             
                         }
                     }
@@ -40,7 +40,8 @@ struct Breakfast: View {
                 }
             }
         }
-       
+        Text("Have a good Day!!!")
+            .padding(.all)
     }
 }
 //Add the code of getting the data
