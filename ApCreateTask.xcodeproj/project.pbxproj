@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C07DE2327F23526007F538A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07DE2227F23526007F538A /* Task.swift */; };
+		3C07DE2527F23607007F538A /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07DE2427F23607007F538A /* TaskStore.swift */; };
 		3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */; };
 		3C5A238F27EE17C800DD7B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237E27EE17C300DD7B73 /* ContentView.swift */; };
 		3C5A239127EE17C800DD7B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A237F27EE17C800DD7B73 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		3C07DE2227F23526007F538A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3C07DE2427F23607007F538A /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ap_Create_TaskApp.swift; sourceTree = "<group>"; };
 		3C5A237E27EE17C300DD7B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C5A237F27EE17C800DD7B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				3C5A23A127EE19F400DD7B73 /* Store.swift */,
+				3C07DE2427F23607007F538A /* TaskStore.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C07DE2527F23607007F538A /* TaskStore.swift in Sources */,
 				3C5A23A227EE19F400DD7B73 /* Store.swift in Sources */,
 				3C5A239E27EE197600DD7B73 /* Menu.swift in Sources */,
 				3C5A238F27EE17C800DD7B73 /* ContentView.swift in Sources */,
