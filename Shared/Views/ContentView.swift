@@ -74,6 +74,29 @@ struct ContentView: View {
     }
 }
 
+struct ReminderView: View {
+    
+    @ObservedObject var store: TaskStore
+    
+    var body: some View {
+        List(store.tasks) { task in
+            HStack{
+                
+                Image(systemName: task.completed ? "checkmark.circle fill" : "circle")
+                    .onTapGesture {
+                        task.completed.toggle()
+                    }
+                
+                Text(task.description)
+               
+            }
+            
+            
+        }
+    }
+}
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
