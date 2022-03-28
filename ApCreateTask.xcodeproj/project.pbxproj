@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C07DE2327F23526007F538A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07DE2227F23526007F538A /* Task.swift */; };
 		3C07DE2527F23607007F538A /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07DE2427F23607007F538A /* TaskStore.swift */; };
+		3C07DE2727F23BA4007F538A /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C07DE2627F23BA4007F538A /* TaskCell.swift */; };
 		3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */; };
 		3C5A238F27EE17C800DD7B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A237E27EE17C300DD7B73 /* ContentView.swift */; };
 		3C5A239127EE17C800DD7B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A237F27EE17C800DD7B73 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3C07DE2227F23526007F538A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		3C07DE2427F23607007F538A /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		3C07DE2627F23BA4007F538A /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		3C5A237D27EE17C300DD7B73 /* Ap_Create_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ap_Create_TaskApp.swift; sourceTree = "<group>"; };
 		3C5A237E27EE17C300DD7B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C5A237F27EE17C800DD7B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				3C70242627EF547A0085EBA9 /* Lunch.swift */,
 				3C70242827EF57B30085EBA9 /* Dinner.swift */,
 				3C5A237E27EE17C300DD7B73 /* ContentView.swift */,
+				3C07DE2627F23BA4007F538A /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				3C70242727EF547A0085EBA9 /* Lunch.swift in Sources */,
 				3C5A23A027EE19B400DD7B73 /* Menus.swift in Sources */,
 				3C5A238D27EE17C800DD7B73 /* Ap_Create_TaskApp.swift in Sources */,
+				3C07DE2727F23BA4007F538A /* TaskCell.swift in Sources */,
 				3C5A23A627EE1BDB00DD7B73 /* Breakfast.swift in Sources */,
 				3C07DE2327F23526007F538A /* Task.swift in Sources */,
 				3C70242927EF57B30085EBA9 /* Dinner.swift in Sources */,

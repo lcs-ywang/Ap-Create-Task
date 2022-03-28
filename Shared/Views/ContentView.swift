@@ -80,16 +80,7 @@ struct ReminderView: View {
     
     var body: some View {
         List(store.tasks) { task in
-            HStack{
-                
-                Image(systemName: task.completed ? "checkmark.circle fill" : "circle")
-                    .onTapGesture {
-                        task.completed.toggle()
-                    }
-                
-                Text(task.description)
-               
-            }
+          
             
             
         }
