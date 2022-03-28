@@ -14,7 +14,7 @@ class ApiData2: ObservableObject {
     @Published var getData:[DineDetail] = [DineDetail(id: 0, house: "", date: "", brTime: "", luTime: "", diTime: "")]
     
     func updateData(){
-        let url = URL(string: "https://api.sheety.co/220245891211d5ab8bb3d71e75542ffb/dineInOrTakeOut/list")!
+        let url = URL(string: "https://api.sheety.co/220245891211d5ab8bb3d71e75542ffb/meal/sheet1")!
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data else {
