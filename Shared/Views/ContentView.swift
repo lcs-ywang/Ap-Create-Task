@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MenuView: View {
     var body: some View {
         NavigationView{
             VStack{
@@ -74,6 +74,23 @@ struct ContentView: View {
     }
 }
 
+struct ContentView: View {
+    var body: some View {
+        TabView{
+            HouseView()
+                .tabItem{
+                    Image(systemName: "map")
+                    Text("House View")
+                }
+            
+            MenuView()
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("Home Page")
+                }
+        }
+    }
+}
 
 
 struct ContentView_Previews: PreviewProvider {
