@@ -21,6 +21,7 @@ struct MenuView: View {
                             VStack(alignment: .leading){
                                 Text("Breakfast")
                                     .multilineTextAlignment(.leading)
+                                    .padding()
                                 
                                 Text("I promise you it feels good after eating breakfast!")
                                     .font(.caption)
@@ -70,7 +71,7 @@ struct MenuView: View {
             }
             .navigationBarTitle("Menu")
         }
-        .padding(.all)
+      
     }
 }
 
@@ -80,18 +81,28 @@ struct ContentView: View {
             
             MenuView()
                 .tabItem {
-                    Text("🍣")
-                        .multilineTextAlignment(.center)
-                        .frame(width: 2.0)
+                    HStack{
                     Text("Menu")
-                        .font(.body)
-                        .multilineTextAlignment(.center)
+                            .font(.largeTitle)
+                        .foregroundColor(Color(hue: 0.132, saturation: 1.0, brightness: 1.0, opacity: 1.0))
+                       
+                    
+                    Text("🍣")
+                        .font(.largeTitle)
+                    }
                 }
             
             HouseView()
                 .tabItem{
-                    Text("🕛")
+                    HStack{
                     Text("House Schedule")
+                        .font(.largeTitle)
+                        .foregroundColor(Color(hue: 0.469, saturation: 1.0, brightness: 1.0))
+                        .padding(.all)
+                    Text("🕛")
+                            .font(.largeTitle)
+                    }
+                    .padding()
                 }
         }
     }
