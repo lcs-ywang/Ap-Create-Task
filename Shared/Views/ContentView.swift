@@ -77,16 +77,21 @@ struct MenuView: View {
 struct ContentView: View {
     var body: some View {
         TabView{
-            HouseView()
-                .tabItem{
-                    Image(systemName: "map")
-                    Text("House View")
-                }
             
             MenuView()
                 .tabItem {
-                    Image(systemName: "map")
-                    Text("Home Page")
+                    Text("🍣")
+                        .multilineTextAlignment(.center)
+                        .frame(width: 2.0)
+                    Text("Menu")
+                        .font(.body)
+                        .multilineTextAlignment(.center)
+                }
+            
+            HouseView()
+                .tabItem{
+                    Text("🕛")
+                    Text("House Schedule")
                 }
         }
     }
