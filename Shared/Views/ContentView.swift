@@ -81,32 +81,22 @@ struct ContentView: View {
             
             MenuView()
                 .tabItem {
-                    HStack{
-                    Text("Menu")
-                            .font(.largeTitle)
-                        .foregroundColor(Color(hue: 0.132, saturation: 1.0, brightness: 1.0, opacity: 1.0))
-                       
-                    
-                    Text("🍣")
-                        .font(.largeTitle)
-                    }
-                }
-            
+                   
+                        Label("Menu", systemImage: "list.dash")
+                            
+                        }
             HouseView()
                 .tabItem{
-                    HStack{
-                    Text("House Schedule")
-                        .font(.largeTitle)
-                        .foregroundColor(Color(hue: 0.469, saturation: 1.0, brightness: 1.0))
-                        .padding(.all)
-                    Text("🕛")
-                            .font(.largeTitle)
-                    }
-                    .padding()
+                    Label("Schedule", systemImage: "calendar")
+                    
                 }
+                    
         }
     }
 }
+            
+            
+
 
 
 struct ContentView_Previews: PreviewProvider {
