@@ -15,12 +15,10 @@ struct HouseView: View {
     var body: some View {
         NavigationView{
             VStack{
-                TextField("" ,
-                          text: $placeholder)
-                    .padding([.top, .leading, .bottom])
+                
                 List{
                     ForEach(0..<houses.count){ num in
-                        if houses[num].contains(placeholder) || placeholder == "Search Bar" || placeholder == "Search Bar"{
+                        if houses[num].contains(placeholder) || placeholder == "" || placeholder == "Search Bar"{
                             NavigationLink(destination: ScheduleView(details: apiData.filter(house: houses[num]), house: houses[num])){
                                 Text("\(houses[num])")
                                     .font(.largeTitle)
@@ -30,6 +28,7 @@ struct HouseView: View {
                     .padding(.all)
                     
                 }
+                .searchable(text: $placeholder)
                 .navigationBarTitle("Houses")
             }
         }
