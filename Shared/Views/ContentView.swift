@@ -12,7 +12,8 @@ struct MenuView: View {
         NavigationView{
             VStack{
                 List{
-                    NavigationLink(destination: Breakfast()){
+                    NavigationLink(destination:
+                                    Breakfast()){
                         HStack{
                             
                             Text("🥞🍳☕️🥨")
@@ -21,7 +22,7 @@ struct MenuView: View {
                             VStack(alignment: .leading){
                                 Text("Breakfast")
                                     .multilineTextAlignment(.leading)
-                                    .padding()
+                                    
                                 
                                 Text("I promise you it feels good after eating breakfast!")
                                     .font(.caption)
