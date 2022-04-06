@@ -49,7 +49,7 @@ class ApiData2: ObservableObject {
                     result.append(detail)
                 }
                 
-            }else if detail.house == house{
+            }else if withFilter == .withoutDateFilter && detail.house == house{
                 result.append(detail)
             }
         }
