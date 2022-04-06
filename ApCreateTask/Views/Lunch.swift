@@ -1,13 +1,13 @@
 //
-//  Dinner.swift
+//  Lunch.swift
 //  ApCreateTask (iOS)
 //
-//  Created by Yining Wang on 2022-03-26.
-//
+//  
 
 import SwiftUI
 
-struct Dinner: View {
+struct Lunch: View {
+    
     @ObservedObject var details = ApiData()
     
     private var todayDate : String{
@@ -19,32 +19,33 @@ struct Dinner: View {
     }
     
     var body: some View {
+        
         VStack{
+            
             Form{
                 ForEach(0..<details.getData.count){ num in
-                    
-                    
-                    
                     if details.getData[num].date == todayDate{
-                        Section(header: Text(" Dinner ")){
-                            Text("Menu: \(details.getData[num].dinner)")
+                        Section(header: Text(" Lunch ")){
+                            Text("Menu: \(details.getData[num].lunch)")
                                 .foregroundColor(Color.black)
                                 .multilineTextAlignment(.leading)
                                 .padding(.all)
                             
                         }
+                        
                     }
                     
                 }
+                .padding(.all)
             }
         }
-        Text("Have a good Night!!!")
-            .padding(.all)
+        Text("Enjoy your Meal!!!")
+        
     }
 }
 
-struct Dinner_Previews: PreviewProvider {
+struct Lunch_Previews: PreviewProvider {
     static var previews: some View {
-        Dinner()
+        Lunch()
     }
 }
